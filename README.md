@@ -6,7 +6,7 @@ Code to fit single neuron models to Lantyer et al. database (da Silva Lantyer et
 
 We use the modelfitters available in Brian (https://github.com/brian-team/brian2modelfitting),  first the Tracefitter, to fit model voltage traces to the experiments, and then the Spikefitter.  Note that for activation particle m of the sodium channel, the half-width Vh and gain k are linearly dependent (see below), so that they do not have to be fitted independently. 
 
-![alt text](/blob/main/Vh_k.png)
+![Fitted Vh versus k](https://github.com/DepartmentofNeurophysiology/point-neuron-fitted-in-Brain/blob/main/Vh_k.png)
 
 ## References
 da Silva Lantyer, A., Calcini, N., Bijlsma, A., Kole, K., Emmelkamp, M., Peeters, M., Scheenen, W. J. J., Zeldenrust, F., & Celikel, T. (2018). A databank for intracellular electrophysiological mapping of the adult somatosensory cortex. GigaScience, 7(12), 1–9. https://doi.org/10.1093/gigascience/giy147
