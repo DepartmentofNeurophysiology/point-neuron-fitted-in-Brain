@@ -4,7 +4,8 @@
 
 Code to fit single neuron models to Lantyer et al. database (da Silva Lantyer et al., 2018) in Brian . Models are fitted to experimental 'frozen noise' traces (Zeldenrust et al. 2017) using the the Brian simulator (https://briansimulator.org/).
 
-We use the modelfitters available in Brian (https://github.com/brian-team/brian2modelfitting),  first the Tracefitter, to fit model voltage traces to the experiments, and then the Spikefitter.  ehNote that for particle m in t
+We use the modelfitters available in Brian (https://github.com/brian-team/brian2modelfitting),  first the Tracefitter, to fit model voltage traces to the experiments, and then the Spikefitter.  Note that for activation particle m of the sodium channel, the half-width Vh and gain k are linearly dependent (see below), so that they do not have to be fitted independently. 
+
 
 
 ## References
